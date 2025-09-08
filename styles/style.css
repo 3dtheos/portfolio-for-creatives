@@ -372,6 +372,7 @@ a:active {
   background-size: contain;
   max-width: 100%;
   height: auto;
+  line-height: 1.3;
 }
 
 .hero-icon {
@@ -1013,4 +1014,46 @@ a.sub-navigation-link:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* HEADER TEXT ANIM */
+
+.inner-headings {
+  overflow: hidden;
+  font-family: var(--heading-typeface);
+}
+
+span {
+  display: block;
+  height: 100%;
+  padding-left: 10px;
+  color: #ffffed;
+  animation: spin_words 6s infinite;
+}
+
+@keyframes spin_words {
+  10% {
+    transform: translateY(-112%);
+  }
+  25% {
+    transform: translateY(-100%);
+  }
+  35% {
+    transform: translateY(-212%);
+  }
+  50% {
+    transform: translateY(-200%);
+  }
+  60% {
+    transform: translateY(-312%);
+  }
+  75% {
+    transform: translateY(-300%);
+  }
+  85% {
+    transform: translateY(-412%);
+  }
+  100% {
+    transform: translateY(-400%);
+  }
 }
