@@ -2,11 +2,6 @@
 <html lang="en">
   <head>
     <title>Extras</title>
-    <link
-      rel="icon"
-      type="assets/x-icon"
-      href="/assets/branding-images/favicon.ico"
-    />
     <meta
       name="description"
       content="Extras, Theo's 3D motion graphics experimemts"
@@ -18,198 +13,283 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
     />
-    <script
-      src="https://kit.fontawesome.com/960542f86d.js"
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
       crossorigin="anonymous"
-    ></script>
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/masonry.css" />
+    <link rel="stylesheet" href="./lightbox2/dist/css/lightbox.min.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
 
-  <body class="work-page">
-    <section class="hero gradient-animation">
+  <body class="play-page">
+    <section class="hero">
       <header class="hero-header">
-        <ul class="branding-navigation">
-          <li><a href="about.html" class="custom-navigation">ABOUT</a></li>
-          <li class="logo">
-            <a href="work.html">
-              <svg
-                viewBox="0 0 1484 1489"
-                version="1.1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                xml:space="preserve"
-                class="wordmark"
-                style="
-                  fill-rule: evenodd;
-                  clip-rule: evenodd;
-                  stroke-linejoin: round;
-                  stroke-miterlimit: 2;
-                "
-              >
-                <g transform="matrix(1,0,0,1,-220,-150)">
-                  <g id="_9Merge">
-                    <g
-                      transform="matrix(0.403272,-0.201636,0.403272,0.201636,249.618,856.424)"
-                    >
-                      <path
-                        d="M486.108,211.9C943.373,239.319 1115.51,269.757 1418.99,332.341C1508.63,686.12 1512.2,913.426 1539.17,1264.96L555.487,2174.46L557.474,1721.68L-290.361,2541.87L-867.413,2616.26L-789.302,2042.93L28.67,1192.88L-425.616,1198.32L486.108,211.9Z"
-                      />
-                    </g>
-                    <path
-                      d="M917.913,398.494C856.84,392.399 849.777,371.844 849.777,365.588C849.777,357.361 956.146,150.656 956.146,150.656C956.146,150.656 1062.23,360.011 1062.23,365.588C1062.23,369.846 1055.29,392.062 993.202,398.477L993.202,452.722L993.169,452.722C992.98,454.954 983.951,464.814 955.865,464.814C927.47,464.814 918.137,454.979 917.946,452.722L917.913,452.722L917.913,398.494Z"
-                    />
-                    <g
-                      transform="matrix(-0.559477,-0.828846,0.828846,-0.559477,630.768,2515.35)"
-                    >
-                      <path
-                        d="M909.82,390.764C876.307,387.508 849.685,381.56 846.959,373.338C845.036,367.537 956.146,150.656 956.146,150.656C956.146,150.656 1054.46,366.065 1058.57,376.384C1062.78,386.961 1028.83,392.399 986.946,393.442L981.796,475.991C981.685,478.217 964.22,481.947 945.677,480.984C926.936,480.01 907.6,474.785 907.136,470.977L907.103,470.977L909.82,390.764Z"
-                      />
-                    </g>
-                    <g
-                      transform="matrix(0.559477,-0.828846,-0.828846,-0.559477,1293.04,2513.29)"
-                    >
-                      <path
-                        d="M978.368,397.753C1020.4,397.647 1054.88,391.785 1050.82,381.574C1046.71,371.256 956.146,150.656 956.146,150.656C956.146,150.656 844.204,356.026 839.492,368.897C837.003,375.696 865.821,385.674 903.243,391.852L898.867,478.063L898.9,478.063C898.666,490.612 972.697,494.717 973.56,483.077L978.368,397.753Z"
-                      />
-                    </g>
-                  </g>
-                </g></svg
-            ></a>
+        <ul class="nav-branding">
+          <li><a href="work.html" class="custom-navigation">WORK</a></li>
+          <li class="nav-branding-logo">
+            <a href="index.html"
+              ><img src="assets/branding-images/logo.svg" alt="logo"
+            /></a>
           </li>
-          <li><a href="blog.html" class="custom-navigation">BLOG</a></li>
+          <li><a href="about.html" class="custom-navigation">ABOUT</a></li>
         </ul>
       </header>
-      <div class="extras-headline-wrapper">
-        <h1 class="stroke-shadow">Have some extras made with extra time.</h1>
+      <div class="hero-headline-wrapper">
+        <h1 class="hero-headline">Have some extras made with extra time.</h1>
       </div>
-      <footer class="hero-footer">
-        <ul class="hero-footer-navigation">
-          <li><a href="work.html" class="custom-navigation">WORK</a></li>
-          <li><a href="extras.html" class="custom-navigation">EXTRAS</a></li>
-        </ul>
-      </footer>
     </section>
-
-    <main class="extras-wrapper">
-      <div class="extras">
-        <ul class="grid">
-          <li class="extras-grid-item">
-            <figure>
-              <img
-                src="assets/extras-img/blender-moldy-orange-animation.gif"
-                alt="Blender Claymation Texture Animation"
-              />
-            </figure>
+    <main class="main-work-section">
+      <section class="portfolio">
+        <ul class="masonry-grid padding-jumbo">
+          <li class="masonry-item">
+            <a
+              href="assets/extras-img/blender-moldy-orange-animation.gif"
+              data-lightbox="project-1"
+              data-title="Blender Claymation Texture Animation"
+            >
+              <figure class="project-image border">
+                <img
+                  src="assets/extras-img/blender-moldy-orange-animation.gif"
+                  width="800"
+                  height="800"
+                  loading="lazy"
+                  class="rotate"
+                  alt="moldy orange animation"
+                  title="moldy orange animation"
+                />
+              </figure>
+            </a>
           </li>
-          <li class="extras-grid-item">
-            <figure>
-              <img
-                src="assets/extras-img/blender-pixel-shader-animation.gif"
-                alt="INSERT PRJOECT DESC"
-              />
-            </figure>
+          <li class="masonry-item">
+            <a
+              href="assets/extras-img/blender-pixel-shader-animation.gif"
+              data-lightbox="pixel shader animation"
+              data-title="pixel shader animation"
+            >
+              <figure class="project-image border">
+                <img
+                  src="assets/extras-img/blender-pixel-shader-animation.gif"
+                  width="1152"
+                  height="768"
+                  loading="lazy"
+                  class="rotate"
+                  alt="pixel shader animation"
+                  title="pixel shader animation"
+                />
+              </figure>
+            </a>
           </li>
-          <li class="extras-grid-item">
-            <figure>
-              <img
-                src="assets/extras-img/blender-claymation-texture-animation.gif"
-                alt="Personal Branding Project"
-              />
-            </figure>
+          <li class="masonry-item">
+            <a
+              href="assets/extras-img/blender-screentone-shader-animation.gif"
+              data-lightbox="project-3"
+              data-title="screentone shader animation"
+            >
+              <figure class="project-image border">
+                <img
+                  src="assets/extras-img/blender-screentone-shader-animation.gif"
+                  width="1072"
+                  height="657"
+                  loading="lazy"
+                  class="rotate"
+                  alt="screentone shader animation"
+                  title="screentone shader animation"
+                />
+              </figure>
+            </a>
           </li>
-
-          <li class="extras-item">
-            <figure>
-              <img
-                src="assets/extras-img/blender-toon-shader-animation.gif"
-                alt="Personal Branding Project"
-              />
-            </figure>
+          <li class="masonry-item">
+            <a
+              href="assets/extras-img/blender-claymation-texture-animation.gif"
+              data-lightbox="project-4"
+              data-title="claymation"
+            >
+              <figure class="project-image border">
+                <img
+                  src="assets/extras-img/blender-claymation-texture-animation.gif"
+                  width="986"
+                  height="657"
+                  loading="lazy"
+                  class="rotate"
+                  alt="claymation"
+                  title="claymation"
+                />
+              </figure>
+            </a>
           </li>
-
-          <li class="extras-grid-item">
-            <figure>
-              <img
-                src="assets/extras-img/blender-screentone-shader-animation.gif"
-                alt="Personal Branding Project"
-              />
-            </figure>
+          <li class="masonry-item">
+            <a
+              href="assets/extras-img/blender-toon-shader-animation.gif"
+              data-lightbox="toon shader"
+              data-title="toon shader"
+            >
+              <figure class="project-image border">
+                <img
+                  src="assets/extras-img/blender-toon-shader-animation.gif"
+                  width="1028"
+                  height="657"
+                  loading="lazy"
+                  class="rotate"
+                  alt="toon shader"
+                  title="toon shader"
+                />
+              </figure>
+            </a>
           </li>
-
-          <li class="extras-grid-item">
-            <figure>
-              <img
-                src="assets/extras-img/blender-stickfigure-claymation.gif"
-                alt="Personal Branding Project"
-              />
-            </figure>
+          <li class="masonry-item">
+            <a
+              href="assets/extras-img/blender-stickfigure-claymation.gif"
+              data-lightbox="claymation stick figure"
+              data-title="claymation stick figure"
+            >
+              <figure class="project-image border">
+                <img
+                  src="assets/extras-img/blender-stickfigure-claymation.gif"
+                  width="523"
+                  height="657"
+                  loading="lazy"
+                  class="rotate"
+                  alt="claymation stick figure"
+                  title="claymation stick figure"
+                />
+              </figure>
+            </a>
+          </li>
+          <li class="masonry-item">
+            <a
+              href="assets/misc-images/404-not-found-animation.gif"
+              data-lightbox="404 not found"
+              data-title="404 not found"
+            >
+              <figure class="project-image border">
+                <img
+                  src="assets/misc-images/404-not-found-animation.gif"
+                  width="493"
+                  height="657"
+                  loading="lazy"
+                  class="rotate"
+                  alt="404 not found"
+                  title="404 not found"
+                />
+              </figure>
+            </a>
+          </li>
+          <li class="masonry-item">
+            <a
+              href="assets/extras-img/blender-glassball.png"
+              data-lightbox="3d glass"
+              data-title="3d glass"
+            >
+              <figure class="project-image border">
+                <img
+                  src="assets/extras-img/blender-glassball.png"
+                  width="985"
+                  height="657"
+                  loading="lazy"
+                  class="rotate"
+                  alt="3d glass"
+                  title="3d glass"
+                />
+              </figure>
+            </a>
+          </li>
+          <li class="masonry-item">
+            <a
+              href="assets/extras-img/blender-geonodes-ball.gif"
+              data-lightbox="blender geometry nodes
+              data-title="blender geometry nodes"
+            >
+              <figure class="project-image border">
+                <img
+                  src="assets/extras-img/blender-geonodes-ball.gif"
+                  width="985"
+                  height="657"
+                  loading="lazy"
+                  class="rotate"
+                  alt="blender geometry nodes"
+                  title="blender geometry nodes"
+                />
+              </figure>
+            </a>
           </li>
         </ul>
-      </div>
+      </section>
+      <!-- <section class="full-width-section">
+        <div class="full-width-headline-wrapper">
+          <h1 class="h1-full-width">🍨 Finally, dessert:</h1>
+          <h2 class="h2-full-width">The Playground page</h2>
+          <p class="max-text-width">
+            A Playground page is often a scattered grid of half-finished
+            projects, random ideas, personal experiments, and rejected work we
+            don’t usually get to see in a polished portfolio. It’s the space
+            where the rules don’t apply—you don’t need to fit a brief, explain
+            your process, or curate what stays and what goes.
+          </p>
+          <p class="max-text-width">This is the low-pressure zone.</p>
+          <p class="max-text-width">
+            If you’re feeling unsure about sharing your work, start with a Play
+            page.
+          </p>
+          <p class="max-text-width">
+            It’s a space for dreams and ideas still finding their footing.
+          </p>
+        </div>
+      </section> -->
     </main>
 
-    <ul class="global-footer">
-      <li class="footer-item-1">
-        <h2>About</h2>
+    <ul class="footer-global">
+      <li class="footer-tagline">
+        <h2>Let's Connect!</h2>
         <p>
-          Thanks for looking at the Extras page! This is where I store all my
-          experiments in Blender 3D. I like to try to achieve different
-          aesthetics in 3D, such as claymation, pixel art, and comic book style
-          shading.
+          Feel free to reach out with any questions, collaborations, or just to
+          chat about design.
         </p>
       </li>
-      <li class="footer-item-2"></li>
 
-      <li class="extras-item-3">
-        <h2 class="contactsocial">Contact &amp; Social</h2>
-        <ul class="socials-list">
-          <li class="social-item">
+
+      <li class="footer-contact-social">
+        <h2>Contact & Social</h2>
+        <ul class="footer-socials-list">
+          <li class="footer-item">
             <a href="mailto:3dtheos@gmail.com" class="custom-navigation"
               ><i class="fa-solid fa-envelope"></i
             ></a>
           </li>
-          <li class="social-item">
+          <li class="footer-item">
             <a href="https://www.instagram.com/3dtheos/" target="_blank"
               ><i class="fa-brands fa-instagram"></i
             ></a>
           </li>
-          <li class="social-item">
-            <a href="https://www.x.com/3dtheos" target="_blank"
+          <li class="footer-item">
+            <a href="https://www.x.com/in/3dtheos" target="_blank"
               ><i class="fa-brands fa-x-twitter"></i
             ></a>
           </li>
-          <li class="social-item">
+          <li class="footer-item">
             <a href="https://www.linkedin.com/in/3dtheos/" target="_blank"
               ><i class="fa-brands fa-linkedin-in"></i
             ></a>
           </li>
         </ul>
       </li>
-      <li class="footer-item-4">
-        <a href="#" class="backtotopbutton">BACK TO TOP</a>
-      </li>
-      <li class="footer-item-5">
-        <p class="fineprint">
-          &copy; Copyright 2024. All rights reserved. Handcoded by Theo S.
+
+      <li class="footer-full-width">
+        <p><a href="#top">Smooth scroll to the top</a></p>
+        <p class="footer-fineprint">
+          &copy; <span id="copyright-years">2020-</span>. Hand crafted with
+          <span class="heart">❤</span>
+          by Theo S.
         </p>
+        <script>
+          document.getElementById("copyright-years").textContent +=
+            new Date().getFullYear();
+        </script>
       </li>
     </ul>
-
-    <div id="myID" class="bottomMenu hide"><a href="#">BACK TO TOP</a></div>
-
-    <script>
-      myID = document.getElementById("myID");
-
-      var myScrollFunc = function () {
-        var y = window.scrollY;
-        if (y >= 800) {
-          myID.className = "bottomMenu show";
-        } else {
-          myID.className = "bottomMenu hide";
-        }
-      };
-
-      window.addEventListener("scroll", myScrollFunc);
-    </script>
+    <script src="./lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
   </body>
 </html>
