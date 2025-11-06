@@ -2,7 +2,7 @@
  * =============================================
  * PORTFOLIO FOR CREATIVES – MAIN STYLESHEET
  * =============================================
- * Author: James Neufeld
+ * Author: James Neufeld (and edited by Theo Samosir)
  * Version: 2.1 | Last Updated: April 13, 2025
  * License: GNU General Public License v3.0 (GPL-3.0)
  * https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -1580,18 +1580,24 @@ to keep your styles reusable and consistent.
   }
 }
 
-/*
+.hidden {
+  opacity: 0;
+  translation: all 1s;
+}
+.show {
+  opacity: 1;
+}
 
-███████ ██ ███    ██
-██      ██ ████   ██
-█████   ██ ██ ██  ██
-██      ██ ██  ██ ██
-██      ██ ██   ████
-                                              
-That’s a wrap, class! 🧑‍🎓✨
+.wordmark {
+  fill: #8fc94c;
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+}
 
-*/
+.wordmark:hover {
+  fill: #fffaef;
+}
 
-/* 🎉 You made it to the end! */
-/* This is a great place to celebrate your progress, add Easter eggs, or leave notes for your future self. */
-/* Happy coding, and don’t forget to take breaks, stay hydrated, and share your work proudly. 💻✨🎨 */
+.logo {
+  width: 18rem;
+}
