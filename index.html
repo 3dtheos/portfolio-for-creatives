@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>3DTheos Portfolio</title>
-    <meta name="description" content="Holding page" />
+    <title>Theo's Portfolio</title>
+    <link
+      rel="icon"
+      type="assets/x-icon"
+      href="/assets/branding-images/favicon.ico"
+    />
+    <meta
+      name="description"
+      content="Theo's 3D motion graphics and motion design student portfolio"
+    />
     <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="5; url=work.html" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta property="og:image" content="screenshot.jpg" />
     <link
@@ -18,28 +26,241 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script
+      src="https://kit.fontawesome.com/960542f86d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="jquery-3.7.1.min.js"></script>
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body class="holding-page">
-    <div class="holding-page-wrapper">
-      <div class="holding-page-inner-container">
-        <a href="work.html">
-          <figure class="holding-page-animation">
-            <img
-              src="assets/misc-images/holding-page-animation.gif"
-              alt="Porfolio Under Construction..."
-            />
-          </figure>
-          <h1 class="holding-page-title">Portfolio Under Construction...</h1>
-        </a>
+
+  <body class="work-page" id="top">
+    <section class="hero gradient-animation">
+      <header class="hero-header">
+        <ul class="nav-branding">
+          <li class="nav-branding-item">
+            <a href="index.html" class="nav-link-primary">WORK</a>
+          </li>
+          <!-- <li class="nav-branding-logo">
+            <a href="index.html">
+              <img src="assets/branding-images/logo.svg" alt="3DTheos Logo" />
+            </a>
+          </li> -->
+          <li class="nav-branding-item">
+            <a href="about.html" class="nav-link-primary">ABOUT</a>
+          </li>
+        </ul>
+      </header>
+      <div class="hero-headline-wrapper">
+        <a href="index.html"> </a
+        ><svg
+          class="wordmark logo"
+          version="1.1"
+          id="Layer_1"
+          xmlns:serif="http://www.serif.com/"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 1991.2 1998.4"
+          style="enable-background: new 0 0 1991.2 1998.4"
+          xml:space="preserve"
+        >
+          <style type="text/css">
+            .st0 {
+              fill-rule: evenodd;
+              clip-rule: evenodd;
+              fill: #8fc94c;
+            }
+          </style>
+          <path
+            class="st0"
+            d="M1557.8,873.6l-40.2,512.7l-244.2-123.2l-15,451.8l-272.3,176.4l-268.2-176.4l-17.4-451.8l-243.1,124.5
+	l-40.5-514.1c262.5-116.4,372.3-154.8,570.6-220C1227.7,725.1,1352.7,785.7,1557.8,873.6z"
+          />
+          <path
+            class="st0"
+            d="M1130.3,288.6c0,5.7-9.3,35.6-92.7,44.2v72.9l0,0c-0.3,3-12.4,16.2-50.1,16.2c-38.1,0-50.7-13.2-50.9-16.2l0,0
+	v-72.8c-82-8.2-91.5-35.8-91.5-44.2C845.1,277.6,988,0,988,0S1130.3,281.1,1130.3,288.6z"
+          />
+          <path
+            class="st0"
+            d="M393.5,1812.3l-91.3,57.2c21.6,39.8,34.9,73.9,27.8,83.1c-5,6.5-330,45.8-330,45.8s165.9-271.3,174.3-283.6
+	c8.6-12.6,40.2,21.1,72.8,66.9l95.8-56.3c2.6-1.5,19.8,15.1,32.7,36.5C388.6,1783.4,397.3,1808.9,393.5,1812.3L393.5,1812.3z"
+          />
+          <path
+            class="st0"
+            d="M1732.8,1785.2c31.7-46.7,64.1-80.7,72.5-68.5c8.4,12.3,185.9,278.9,185.9,278.9s-312.8-29.7-330.6-34.1
+	c-9.4-2.3,1.1-41.9,22.4-88.2l-99.3-59.9l0,0c-14.1-9.2,36.9-94.7,50.5-86.9L1732.8,1785.2z"
+          />
+        </svg>
+        <h3 class="hero-headline">
+          Hi, I'm Theo, a illustrator, type designer, and 3D artist.
+        </h3>
       </div>
-      <div class="holding-page-footer">
-        <p class="holding-page-copyright">
-          &copy; 2020-2025. Hand crafted with
+      <footer class="hero-footer">
+        <ul class="hero-footer-navigation">
+          <li>
+            <a
+              href="https://www.instagram.com/3dtheos/"
+              class="nav-link-primary"
+              >INSTAGRAM</a
+            >
+          </li>
+          <li>
+            <a href="extras.html" class="nav-link-primary">EXTRAS</a>
+          </li>
+        </ul>
+      </footer>
+    </section>
+
+    <main class="main-work-section">
+      <section class="portfolio">
+        <ul class="grid">
+          <li class="work-page-grid-item">
+            <figure>
+              <img
+                class="header"
+                src="assets/project-1-piper/3d-glass-explosion-text.jpg"
+                alt="Personal Branding Project"
+              />
+            </figure>
+            <a href="piper.html">
+              <div class="overlay">
+                <h1 class="overlay-title">The Piper at the Gates of Dawn</h1>
+                <h4 class="overlay-description">3D Motion Graphics</h4>
+              </div>
+            </a>
+          </li>
+          <li class="work-page-grid-item">
+            <figure>
+              <img
+                src="assets/project-2-dont-cliff-dive/cliff-diving-PSA-art4.jpg"
+                alt="Don't Cliff Dive, A PSA "
+              />
+            </figure>
+            <a href="dont-cliff-dive.html">
+              <div class="overlay">
+                <h1 class="overlay-title">Don't Cliff Dive</h1>
+                <h4 class="overlay-description">
+                  Motion Graphics & Illustration
+                </h4>
+              </div>
+            </a>
+          </li>
+          <li class="work-page-grid-item">
+            <figure>
+              <img
+                src="assets/project-3-moldy-fruit/moldy-fruit-frame2b.jpg"
+                alt="Moldy Fruit"
+              />
+            </figure>
+            <a href="moldy-fruit.html">
+              <div class="overlay">
+                <h1 class="overlay-title">Moldy Fruit</h1>
+                <h4 class="overlay-description">
+                  Motion Graphics & Illustration
+                </h4>
+              </div>
+            </a>
+          </li>
+          <li class="work-page-grid-item">
+            <figure>
+              <img
+                src="assets/project-4-personal-branding/3d-logo-render.jpg"
+                alt="Personal Branding Project"
+              />
+            </figure>
+            <a href="branding.html">
+              <div class="overlay">
+                <h1 class="overlay-title">Personal Branding</h1>
+                <h4 class="overlay-description">Branding</h4>
+              </div>
+            </a>
+          </li>
+
+          <li class="work-page-grid-item">
+            <figure>
+              <img
+                src="assets/project-5-inkstiq/inkstiq-display-typeface-sample1.jpg"
+                alt="Typeface Design"
+              />
+            </figure>
+            <a href="inkstiq.html">
+              <div class="overlay">
+                <h1 class="overlay-title">Inkstiq</h1>
+                <h4 class="overlay-description">Type Design</h4>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <ul class="footer-global">
+      <li class="footer-tagline">
+        <h2>About</h2>
+        <p>
+          Hi, thanks for stopping by. I’m Theo,a motion graphics artist with an
+          interest in 3D abstract motion graphics and how they can help
+          represent emotions and ideas. I also like scratchy cartoons. I am
+          always curious about the world of computer graphics and helping people
+          out,
+          <a href="mailto:3dtheos@gmail.com"
+            >so let me know if you’d like to work with me!</a
+          >
+        </p>
+      </li>
+      <!-- <li class="footer-highlights">
+ 
+      </li> -->
+
+      <li class="footer-contact-social">
+        <h2>Contact &amp; Social</h2>
+        <ul class="footer-socials-list">
+          <li class="footer-item"><a href="#">Insta</a></li>
+          <li class="footer-item"><a href="#">LinkedIn</a></li>
+          <li class="footer-item"><a href="#">Behance</a></li>
+        </ul>
+      </li>
+      <li class="footer-full-width">
+        <p><a href="#top">BACK TO TOP</a></p>
+        <p class="footer-fineprint">
+          &copy; <span id="copyright-years">2020-</span>. Hand crafted with
           <span class="heart">❤</span>
           by Theo S.
         </p>
-      </div>
-    </div>
+        <script>
+          document.getElementById("copyright-years").textContent +=
+            new Date().getFullYear();
+        </script>
+      </li>
+    </ul>
+
+    <!-- <div id="myID" class="bottomMenu hide">
+      <a href="#">Back to top</a>
+    </div> -->
+
+    <!-- <div class="flier">
+      <img
+        src="assets/branding-images/smiley-face.svg"
+        alt="Describe your image"
+      />
+    </div> -->
+
+    <script>
+      myID = document.getElementById("myID");
+
+      var myScrollFunc = function () {
+        var y = window.scrollY;
+        if (y >= 800) {
+          myID.className = "bottomMenu show";
+        } else {
+          myID.className = "bottomMenu hide";
+        }
+      };
+
+      window.addEventListener("scroll", myScrollFunc);
+    </script>
   </body>
 </html>
